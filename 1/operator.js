@@ -9,22 +9,30 @@
 
 
 
-var a = 10;
-var b = 30;
+// var a = 10;
+// var b = 30;
 
-a += b;
-console.log (a);
+// a += b;
+// console.log (a);
 
-a -= b;
-console.log (a);
+// a -= b;
+// console.log (a);
 
-a *= b;
-console.log (a);
+// a *= b;
+// console.log (a);
 
-a /= b;
+// a /= b;
 
-console.log (a);
+// console.log (a);
 
-a %= b;
+// a %= b;
 
-console.log (a);
+// console.log (a);
+
+
+// Comparison Operators
+
+var a = 30;
+var b = 25;
+
+console.log (a != b);
