@@ -1,0 +1,13 @@
+var Name=("My name is showrov ghosh")
+var village=("i live in a village")
+var villageName=('village name is fazilpur')
+var edu=('i am an sutdebt. i read in BBA at Government rajandro')
+var age=('21')
+var maritalStatus=('unmarried')
+
+console.log(Name)
+console.log(village)
+console.log(villageName)
+console.log(edu)
+console.log(age)
+console.log(maritalStatus)
