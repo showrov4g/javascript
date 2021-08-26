@@ -10,8 +10,8 @@
 
 
 var a = 10;
-var b = 6;
+var b = 30;
 
-a += b;
+a %= b;
 
 console.log (a);
