@@ -20,4 +20,7 @@
 
 // console.log (Math.sin(90* Math.PI / 500));
 
-console.log(Math.max(900 , 500));
+// console.log(Math.max(900 , 500));
+
+// console.log(Math.min(500 , 600));
+console.log(Math.round(Math.random()* 50 + 1));
