@@ -12,7 +12,12 @@
 // console.log(Math.floor(5.897));
 // console.log(Math.trunc(5.897));
 
-console.log(Math.sign(4));
+// console.log(Math.sign(4));
 
-console.log(Math.pow(16 , 2));
-console.log(Math.sqrt(800));
+// console.log(Math.pow(16 , 2));
+// console.log(Math.sqrt(800));
+// console.log(Math.abs( -5500));
+
+// console.log (Math.sin(90* Math.PI / 500));
+
+console.log(Math.max(900 , 500));
