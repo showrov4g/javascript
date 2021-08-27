@@ -32,7 +32,12 @@
 
 // Comparison Operators
 
-var a = 60;
-var b = 60;
+// var a = 60;
+// var b = 60;
 
-console.log (a >= b);
+// console.log (a != b);
+
+
+// type operator
+
+alert( 50 )
