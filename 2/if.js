@@ -37,3 +37,11 @@ if (a > 10){
 }else{
     console.log(a + " is smoller than a")
 }
+
+
+
+var n=50;
+
+if( n%2 == 2){
+    console.log(n + "is even number");
+}
