@@ -29,19 +29,22 @@
 //     console.log( "good evening")
 // }
 
+// var a = 20;
 
-var a = 20;
-
-if (a > 10){
-    console.log(a + " is bigger than a")
-}else{
-    console.log(a + " is smoller than a")
-}
-
+// if (a > 10){
+//     console.log(a + " is bigger than a")
+// }else{
+//     console.log(a + " is smoller than a")
+// }
 
 
-var n=50;
 
-if( n%2 == 2){
+
+var n=52;
+
+if( n%2 == 0){
     console.log(n + "is even number");
+}
+if(n%2 ==1){
+    console.log(n+ "is odd number")
 }
