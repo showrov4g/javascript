@@ -8,3 +8,15 @@ if(a > b){
 }else{
     console.log('Both are Equal')
 }
+
+var n = 0;
+
+if (n == 0){
+    console.log("n is simple number")
+}
+else if (n%2 == 0){
+    console.log("n is Even number");
+}
+else{
+    console.log("n is odd number")
+}
