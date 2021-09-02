@@ -40,4 +40,17 @@
 
 // type operator
 
-alert( 50 )
+// alert( 50 )
+// and operator
+var a = 70;
+var b = 50;
+var c = 70;
+var d = 30;
+
+if(a > b && c > d){
+    console.log(" a is greater than b and c is greater than d")
+}else if(a < b && c < d) {
+    console.log("a is smoler than b and c is somler than d")
+}else{
+    console.log("both are queal")
+}
