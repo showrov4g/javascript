@@ -1,27 +1,26 @@
 // var Date= new Date();
 
-var today = date.getDay();
-
-switch(today){
+switch (new Date().getDay()) {
     case 0:
-        console.log("this is satarday")
-    break
+      console.log('It is sunday')
+      break;
     case 1:
-        console.log("this is Sunday")
-    break
+      console.log('It is Monday')
+      break;
     case 2:
-        console.log("this is Monday")
-    break
+      console.log('It is Tuesday')
+      break;
     case 3:
-        console.log("this is Tuesday")
-    break
+      console.log('It is WednesDay')
+      break;
     case 4:
-        console.log("this is Wednessday")
-    break
+      console.log('It is Thusday')
+      break;
     case 5:
-        console.log("This is Thusday")
-    break
-    case 0:
-        console.log("this is Friday")
-    break
-}
+      console.log('It is Friday')
+      break;
+    case 6:
+      console.log('It is Satarday')
+      break;
+    
+  }
