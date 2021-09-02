@@ -10,7 +10,7 @@ else{
     console.log( "both are requal")
 }
 
-var n = 5;
+var n = 12;
 
 if (n == 0){
     console.log("N is simple Number")
