@@ -1,4 +1,5 @@
 // var Date= new Date();
+// var day = date.getday();
 
 switch (new Date().getDay()) {
     case 0:
@@ -24,3 +25,4 @@ switch (new Date().getDay()) {
       break;
     
   }
+
