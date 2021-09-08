@@ -1,3 +1,9 @@
-for( var i = 950; i< 1000; i++){
-    console.log( (i+1) + 'showrov ghosh')
+// for( var i = 0; i< 1000; i-= 100){
+//     console.log( (i+1) + 'showrov ghosh')
+// }
+var sum = 0;
+for (var i = 1; i <= 10; i++){
+
+    console.log(sum)
+    sum += i;
 }
