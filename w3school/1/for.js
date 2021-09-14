@@ -1,6 +1,5 @@
-var i = 5;
-for (var i=0; i < 10; i++){
-    //some statement
+var i = 0;
+while(i <10){
+    console.log("showrov ghosh")
+    i++
 }
-document.getElementById('demo').innerHTML= i;
-
