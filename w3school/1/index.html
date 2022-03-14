@@ -4,20 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>First Javascript partice</title>
 </head>
 <body>
 
-    <h1>light bulb</h1>
+    <p id="demo">Javascript can change html attribute</p>
 
 
+    <button type="button" onclick=" document.getElementById('demo').style.fontSize= '50px' " >font size increase</button>
 
-    <button type="button" onclick="document.getElementById('myImage').src= 'img/pic_bulbon.gif' ">turn on light</button>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize= '20px' " > font size decrease </button>
 
-    <img id="myImage" src="img/pic_bulboff.gif" style="width: 100px;" alt="">
-
-
-    <button type="button" onclick="document.getElementById('myImage').src= 'img/pic_bulboff.gif' " >turn of the light </button>
 
 </body>
 </html>
