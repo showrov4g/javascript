@@ -6,35 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Javascript partice</title>
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML= "showrov ghosh";
+        }
+    </script>
 </head>
 <body>
 
+    <h1>Javascript code </h1>
+    <p id="demo"> Html text</p>
 
-    <h1 style="text-align: center; font-size: 4rem; margin: 0%;">learning javascript form scrace</h1>
-
-    <p id="demo">Javascript partice</p>
-    <button type="button" onclick="document.getElementById('demo').innerHTML= 'Showrov Ghosh' "> click here for change text</button>
-    <!-- text hide -->
-    <button type="button" onclick="document.getElementById('demo').style.display= 'none' ">click here for hide text</button>
-
-    <!-- text show  -->
-
-    <button type="button" onclick="document.getElementById('demo').style.display= 'block' ">click here for show the text</button>
-
-    <!-- color change  -->
-    <button type="button" onclick="document.getElementById('demo').style.color='red' ">change text color</button>
-
-
-    <!-- image change -->
-    <br>
-
-    <img src="img/sk.jpg" alt="image" style="width: 300px" id="sri">
-
-    <button style="cursor: pointer;" type="button" onclick="document.getElementById('sri').src='img/sri.jpg' ">Change image</button>
-    <button type="button" onclick="document.getElementById('sri').src='img/sk.jpg' " >go to previous image</button>
-
-
-
+    <button type="button" onclick="myFunction()" >Click here</button>
 
 </body>
 </html>
