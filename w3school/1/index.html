@@ -11,6 +11,15 @@
         function myFunction(){
             document.getElementById("demo").innerHTML= "showrov ghosh";
         }
+        function changeColor(){
+            document.getElementById('demo').style.color= "blue";
+        }
+        function fontSize(){
+            document.getElementById('demo').style.fontSize= '100px';
+        }
+        function reSize(){
+            document.getElementById('demo').style.fontSize= '20px';
+        }
     </script>
 </head>
 <body>
@@ -18,7 +27,10 @@
     <h1>Javascript code </h1>
     <p id="demo"> Html text</p>
 
-    <button type="button" onclick="myFunction()" >Click here</button>
-
+    <button type="button" onclick="myFunction();" >Click here</button>
+    <button type="button" onclick="changeColor();"> click here</button>
+    <button type="button" onclick="fontSize();"> click here</button>
+    <button type="button" onclick="reSize();"> click here</button>
+    
 </body>
 </html>
