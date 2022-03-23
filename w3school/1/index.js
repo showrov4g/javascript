@@ -1,2 +1,2 @@
-var $myName = 10 + "10";
-console.log(typeof($myName));
+var abc = false - true;
+console.log(abc);
