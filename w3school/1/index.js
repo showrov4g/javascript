@@ -1,2 +1,3 @@
-var abc = false - true;
-console.log(abc);
+var sk = "showrov";
+
+docunemt.write(sk);
