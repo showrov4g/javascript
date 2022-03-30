@@ -15,8 +15,15 @@
 // console.log(iAmUseless);
 // console.log(typeof(iAmUseless))
 
-var myPhoneNmumber= 547565654;
-var myName = "Showrov ghosh";
+// var myPhoneNmumber= 547565654;
+// var myName = "Showrov ghosh";
 
-console.log(isNaN(myPhoneNmumber));
-console.log(isNaN(myName))
+// console.log(isNaN(myPhoneNmumber));
+// console.log(isNaN(myName));
+
+
+console.log(NaN === NaN);
+console.log(Number.NaN === NaN);
+console.log(isNaN(NaN));
+console.log(isNaN(Number.NaN));
+console.log(Number.isNaN(NaN))
