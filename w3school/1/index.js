@@ -22,8 +22,20 @@
 // console.log(isNaN(myName));
 
 
-console.log(NaN === NaN);
-console.log(Number.NaN === NaN);
-console.log(isNaN(NaN));
-console.log(isNaN(Number.NaN));
-console.log(Number.isNaN(NaN))
+// console.log(NaN === NaN);
+// console.log(Number.NaN === NaN);
+// console.log(isNaN(NaN));
+// console.log(isNaN(Number.NaN));
+// console.log(Number.isNaN(NaN))
+
+// console.log(5 * 5);
+// console.log(5 / 5);
+// console.log(5 - 5);
+// console.log(5 + 5);
+// console.log(5 % 5);
+// console.log("Reminder operator" + 81%9);
+ 
+
+var x = 5;
+var y = ++x;
+console.log(y)
