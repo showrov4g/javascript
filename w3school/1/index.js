@@ -40,8 +40,14 @@
 // var y = ++x;
 // console.log(y);
 
-var a = 30;
-var b = -20;
+// var a = 30;
+// var b = -20;
 
-console.log(!(a > b) || (b > 0));
-console.log(true);
+// console.log(!(a > b) || (b > 0));
+// console.log(true);
+
+
+var myName = "showrov";
+var sarName = "Ghosh";
+
+console.log(myName + " " + sarName);
