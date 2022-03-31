@@ -36,6 +36,12 @@
 // console.log("Reminder operator" + 81%9);
  
 
-var x = 5;
-var y = ++x;
-console.log(y)
+// var x = 5;
+// var y = ++x;
+// console.log(y);
+
+var a = 30;
+var b = -20;
+
+console.log(!(a > b) || (b > 0));
+console.log(true);
