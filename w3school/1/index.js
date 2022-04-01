@@ -52,4 +52,14 @@
 
 // console.log(50 / 90);
 
-console.log(9**2);
+// console.log(9**2);
+
+
+var a = 5;
+var b = 10;
+
+a = a+b;
+b = b-a;
+
+console.log("The a is" + " " + 15);
+console.log("The b is"+ " " + 5)
