@@ -47,7 +47,11 @@
 // console.log(true);
 
 
-var myName = "showrov";
-var sarName = "Ghosh";
+// var myName = "showrov";
+// var sarName = "Ghosh";
 
-console.log(myName + " " + sarName);
+// console.log(50 / 90);
+
+let nam = 90909789;
+
+console.log(nam.toString(16));
