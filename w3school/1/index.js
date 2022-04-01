@@ -55,11 +55,44 @@
 // console.log(9**2);
 
 
-var a = 5;
-var b = 10;
+// var a = 5;
+// var b = 10;
 
-a = a+b;
-b = b-a;
+// a = a+b;
+// b = b-a;
 
-console.log("The a is" + " " + 15);
-console.log("The b is"+ " " + 5)
+// console.log("The a is" + " " + 15);
+// console.log("The b is"+ " " + 5)
+
+// var nam = 5;
+// var nam1 = "5";
+
+// console.log(typeof(nam));
+// console.log(typeof(nam1));
+
+// console.log(nam === nam1);
+
+
+// if else condition 
+
+// var year = 2028;
+// debugger;
+// if(year % 4 === 0){
+//     if (year % 100 === 0) {
+//         if (year % 400 === 0) {
+//             console.log("this year" + year + " " +  "is a leap year");
+//         } else {
+//             console.log("this year" + year + " " +  "is not a leap year");
+//         }
+//     } else {
+//         console.log("the year" + year + " " +  "is not a leap year");
+//     }
+// }else{
+//     console.log("the year" + year + " " +  "is not a leap year");
+// }
+
+if(score = 1){
+    console.log("we own the game");
+}else{
+    console.log("we loss the game");
+}
