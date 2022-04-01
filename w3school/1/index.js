@@ -52,6 +52,4 @@
 
 // console.log(50 / 90);
 
-let nam = 90909789;
-
-console.log(nam.toString(16));
+console.log(9**2);
