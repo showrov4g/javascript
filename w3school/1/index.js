@@ -102,10 +102,17 @@
 // }
 
 
-var age = 51;
+// var age = 51;
 
-if (age >= 18){
-    console.log("you are eligible to vote");
-}else{
-    console.log("you are not eligible to vote")
-}
+// if (age >= 18){
+//     console.log("you are eligible to vote");
+// }else{
+//     console.log("you are not eligible to vote")
+// }
+
+var age = 18;
+console.log((age >= 18)? "you can vote" : "you can't vote");
+
+
+var _name = 50;
+console.log((_name <= 9) ? "you are right person" : "you are not a right person");
