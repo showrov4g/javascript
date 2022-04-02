@@ -110,9 +110,22 @@
 //     console.log("you are not eligible to vote")
 // }
 
-var age = 18;
-console.log((age >= 18)? "you can vote" : "you can't vote");
+// var age = 18;
+// console.log((age >= 18)? "you can vote" : "you can't vote");
 
 
-var _name = 50;
-console.log((_name <= 9) ? "you are right person" : "you are not a right person");
+// var _name = 50;
+// console.log((_name <= 9) ? "you are right person" : "you are not a right person");
+
+var area = "sk" ;
+const PI = 3.1234, l = 5, b = 4, r =3 ; 
+
+if(area == "circle"){
+    console.log("the area of the circle is : " + PI*r**2);
+}else if(area == "triangle"){
+    console.log("the area of the triangle is : " + (l*b)/2);
+}else if(area == "rectangle"){
+    console.log("the area of the rectangle is : " + (l*b));
+}else{
+    console.log("please enter valid data");
+}
