@@ -91,8 +91,12 @@
 //     console.log("the year" + year + " " +  "is not a leap year");
 // }
 
-if(score = 1){
-    console.log("we own the game");
-}else{
-    console.log("we loss the game");
+
+var x = 566;
+var y = 60;
+
+if (x > y) {
+    console.log("x y ar thaka boro")
+} else {
+    console.log(" x y ar thaka soto") ;   
 }
