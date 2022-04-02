@@ -92,11 +92,20 @@
 // }
 
 
-var x = 566;
-var y = 60;
+// var x = 566;
+// var y = 60;
 
-if (x > y) {
-    console.log("x y ar thaka boro")
-} else {
-    console.log(" x y ar thaka soto") ;   
+// if (x > y) {
+//     console.log("x y ar thaka boro")
+// } else {
+//     console.log(" x y ar thaka soto") ;   
+// }
+
+
+var age = 51;
+
+if (age >= 18){
+    console.log("you are eligible to vote");
+}else{
+    console.log("you are not eligible to vote")
 }
