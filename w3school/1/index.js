@@ -131,19 +131,28 @@
 // }
 
 
-var area = "circle";
-const PI = 3.3452, l = 5, b = 5, r = 3 ;
+// var area = "circle";
+// const PI = 3.3452, l = 5, b = 5, r = 3 ;
 
-switch (area){
-    case "circle": 
-        console.log("the area of the circle is : " + PI*r**2);
+// switch (area){
+//     case "circle": 
+//         console.log("the area of the circle is : " + PI*r**2);
     
-    case "triangle":
-        console.log("the area of the triangle is : " + (l*b)/2);
+//     case "triangle":
+//         console.log("the area of the triangle is : " + (l*b)/2);
 
-    case "rectangle":
-        console.log("the area of the rectangle is : " + (l*b));
+//     case "rectangle":
+//         console.log("the area of the rectangle is : " + (l*b));
 
-    default:
-        console.log("please enter valid data");
+//     default:
+//         console.log("please enter valid data");
+// }
+
+
+//while loop 
+
+var _nam = 80;
+while(_nam <= 100){
+    console.log(_nam)
+    _nam++
 }
