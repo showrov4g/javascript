@@ -174,7 +174,7 @@
 // console.log(tableOf + "*" + num + "=" + tableOf * num);
 // }
 
-for (var num = 1; num <= 10; num++){
-    var tableOf = 2;
-    console.log(tableOf + "*" + num + "=" + tableOf * num);
-}
+// for (var num = 1; num <= 10; num++){
+//     var tableOf = 2;
+//     console.log(tableOf + "*" + num + "=" + tableOf * num);
+// }
