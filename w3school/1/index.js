@@ -178,3 +178,20 @@
 //     var tableOf = 2;
 //     console.log(tableOf + "*" + num + "=" + tableOf * num);
 // }
+
+
+// function sum(){
+//     var a = 20;
+//     var b = 50;
+//     var total = a + b;
+//     console.log (total);
+// }
+// sum();
+
+function sum(a,b){
+    var total = a + b;
+    console.log(total);
+}
+sum();
+sum (30, 50);
+sum (90, 30);
