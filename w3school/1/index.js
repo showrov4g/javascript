@@ -188,10 +188,17 @@
 // }
 // sum();
 
+// function sum(a,b){
+//     var total = a + b;
+//     console.log(total);
+// }
+// sum();
+// sum (30, 50);
+// sum (90, 30);
+// sum (786, 967);
+
 function sum(a,b){
-    var total = a + b;
-    console.log(total);
+    return total = a + b;
 }
-sum();
-sum (30, 50);
-sum (90, 30);
+var funExp = sum(45,90);
+console.log("the sum of two number is " + " " +funExp);    
