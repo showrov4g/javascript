@@ -151,8 +151,25 @@
 
 //while loop 
 
-var _nam = 80;
-while(_nam <= 100){
-    console.log(_nam)
-    _nam++
+// var _nam = 20;
+// while(_nam <= 10){
+//     console.log("Showrov ghosh ")
+//     _nam++
+// }
+// var _nam = 0;
+
+// do{
+//     debugger; 
+//     console.log(_nam);
+//     _nam++
+// }while(_nam <= 10);
+
+// for(var _nam = 1; _nam <= 10; _nam++ ){
+//     debugger
+//     console.log(_nam);
+// }
+
+for (var num = 1; num <= 10; num++){
+var tableOf = 10;
+console.log(tableOf + "*" + num + "=" + tableOf * num);
 }
