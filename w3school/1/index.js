@@ -217,17 +217,31 @@
 
 // my_name = "Sk ghosh";
 // console.log(my_name);
-function biodata(){
-    var my_first_name = "Showrov Ghosh";
-    console.log (my_name);
 
-    if(true){
-        var my_last_name = "thapa";
 
-        console.log("inner" + my_last_name);
-        console.log("inner" + my_first_name)
-    }
+// function biodata(){
+//     var my_first_name = "Showrov ghosh";
+//     console.log(my_first_name);
+
+//     if(true){
+//         var my_last_name = "Sk ghosh"; 
+//     }
+// }
+// console.log(my_last_name);
+
+// biodata();
+
+for(let num = 1; num <= 10; num++){
+    let tableOf = 12;
+    console.log(`${tableOf} * ${num} = ${tableOf * num}`);
 }
-biodata();
+//==========================
+var multiply = "100 number multiply";
+console.log(multiply);
+//========================
+for(let num = 1; num <=10; num++){
+    let tableOf = 100;
+    console.log(`${tableOf}* ${num} = ${tableOf * num}`);
+}
 
 
