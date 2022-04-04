@@ -231,17 +231,35 @@
 
 // biodata();
 
-for(let num = 1; num <= 10; num++){
-    let tableOf = 12;
-    console.log(`${tableOf} * ${num} = ${tableOf * num}`);
-}
-//==========================
-var multiply = "100 number multiply";
-console.log(multiply);
-//========================
-for(let num = 1; num <=10; num++){
-    let tableOf = 100;
-    console.log(`${tableOf}* ${num} = ${tableOf * num}`);
-}
+// for(let num = 1; num <= 10; num++){
+//     let tableOf = 12;
+//     console.log(`${tableOf} * ${num} = ${tableOf * num}`);
+// }
+// //==========================
+// var multiply = "100 number multyply";
+// console.log(multiply);
+// //========================
+// for(let num = 1; num <=10; num++){
+//     let tableOf = 100;
+//     console.log(`${tableOf}* ${num} = ${tableOf * num}`);
+// }
 
+// //==============================
+// var multiply= "500 number multyply";
+// console.log(multiply);
+// for (var num = 1; num <= 10; num++){
+//     var tableOf = 500;
+//     console.log(`${tableOf} * ${num} = ${tableOf * num}`);
+// }
+
+
+// function mult(a,b){
+//      return a * b;
+// };
+// console.log(mult(50,70));
+
+// function number(a,b=5){
+//     return a * b;
+// }
+// console.log(number(60));
 
