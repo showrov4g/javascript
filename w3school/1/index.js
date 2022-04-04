@@ -197,8 +197,16 @@
 // sum (90, 30);
 // sum (786, 967);
 
+// function sum(a,b){
+//     return total = a + b;
+// }
+// var funExp = sum(45,90);
+// console.log("the sum of two number is " + " " +funExp);    
 function sum(a,b){
-    return total = a + b;
+    var total = a * b;
+    console.log(total)
 }
-var funExp = sum(45,90);
-console.log("the sum of two number is " + " " +funExp);    
+sum ();
+sum (30,60 );
+sum (89, 60);
+
