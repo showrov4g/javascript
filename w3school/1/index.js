@@ -202,11 +202,32 @@
 // }
 // var funExp = sum(45,90);
 // console.log("the sum of two number is " + " " +funExp);    
-function sum(a,b){
-    var total = a * b;
-    console.log(total)
+// function sum(a,b){
+//     var total = a * b;
+//     console.log(total)
+// }
+// sum ();
+// sum (30,60 );
+// sum (89, 60);
+
+// ecamaScript
+
+// let my_name = "Showrov Ghosh";
+// console.log(my_name);
+
+// my_name = "Sk ghosh";
+// console.log(my_name);
+function biodata(){
+    var my_first_name = "Showrov Ghosh";
+    console.log (my_name);
+
+    if(true){
+        var my_last_name = "thapa";
+
+        console.log("inner" + my_last_name);
+        console.log("inner" + my_first_name)
+    }
 }
-sum ();
-sum (30,60 );
-sum (89, 60);
+biodata();
+
 
