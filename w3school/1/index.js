@@ -272,8 +272,15 @@
 
 
 // defult patamertar
-function mult(a = 7,b = 5){
-    return b * a;
-}
-console.log(mult(9));
+// function mult(a = 7,b = 5){
+//     return b * a;
+// }
+// console.log(mult(9));
 
+function sum(){
+    var a = 7; b = 9;
+    var sum = a / b;
+    return `the multyplay of this two number is ${sum}`;
+}
+
+console.log(sum());
