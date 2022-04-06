@@ -263,3 +263,17 @@
 // }
 // console.log(number(60));
 
+// function sum(){
+//     let a = 15, b = 16, c = 10;
+//     let sum = a + b + c;
+//     return `the sum of this number is ${sum}`;
+// }
+// console.log(sum());
+
+
+// defult patamertar
+function mult(a = 7,b = 5){
+    return b * a;
+}
+console.log(mult(9));
+
