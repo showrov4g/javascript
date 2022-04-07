@@ -304,6 +304,12 @@
 // console.log(my_name[my_name.length -1]);
 // console.log(my_name.length +1);
 
-var my_name = ["showrov", "dipu", "Topu", "Apu"];
-console.log(my_name[my_name.length -1]);
-console.log(my_name.length);
+var my_name = ["showrov", "dipu", "Topu", "Apu", "sk", "dk", "tk", "ak"];
+
+// for(var i= 0; i<my_name.length; i++){
+//     console.log(my_name[i]);
+// }
+
+for(let elements in my_name ){
+    console.log(elements);
+}
