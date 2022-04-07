@@ -299,6 +299,11 @@
 // }
 // console.log(sum());
 
-var my_name = ["showrov","Dipu","topu","Apu"];
+// var my_name = ["showrov","Dipu","topu","Apu"];
 
-console.log(my_name[3]);
+// console.log(my_name[my_name.length -1]);
+// console.log(my_name.length +1);
+
+var my_name = ["showrov", "dipu", "Topu", "Apu"];
+console.log(my_name[my_name.length -1]);
+console.log(my_name.length);
