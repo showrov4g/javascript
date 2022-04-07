@@ -286,9 +286,19 @@
 // console.log(sum());
 
 
-const sum = () =>{
-    var a = 6; b = 7;
-    var sum = a/b;
-    return `the devidation of this number is ${sum}`
-}
-console.log(sum());
+// const sum = () =>{
+//     var a = 6; b = 7;
+//     var sum = a/b;
+//     return `the devidation of this number is ${sum}`
+// }
+// console.log(sum());
+
+// const sum = () => {
+//     var a = 6; b = 7;
+//     `the deviation of this number is ${a/b}`
+// }
+// console.log(sum());
+
+var my_name = ["showrov","Dipu","topu","Apu"];
+
+console.log(my_name[3]);
