@@ -309,7 +309,6 @@ var my_name = ["showrov", "dipu", "Topu", "Apu", "sk", "dk", "tk", "ak"];
 // for(var i= 0; i<my_name.length; i++){
 //     console.log(my_name[i]);
 // }
-
-for(let elements in my_name ){
-    console.log(elements);
-}
+my_name.forEach(function(element, index, array){
+    console.log(element + "index :"+ index + ' ' + array);
+});
