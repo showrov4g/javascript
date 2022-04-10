@@ -1,1 +1,4 @@
-document.getElementById("sk").innerHTML = "Who am i?";
+var a=5;
+var b="5";
+
+console.log(a+b);
