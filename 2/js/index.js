@@ -1,4 +1,7 @@
-var a=5;
-var b="5";
+// let counter = 1;
 
-console.log(a+b);
+
+// while(counter <= 10){
+//     document.write("showrov");
+//     counter++;
+// }
