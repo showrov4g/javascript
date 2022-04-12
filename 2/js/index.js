@@ -51,4 +51,11 @@
 // document.write(age);
 // document.write(typeof age);
 
+let type = 4;
+document.write(typeof type);
+document.write("<br>");
+
+var newType = String(type);
+
+document.write(typeof newType);
 
