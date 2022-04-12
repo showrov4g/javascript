@@ -51,11 +51,12 @@
 // document.write(age);
 // document.write(typeof age);
 
-let type = false;
+let type = 1;
 document.write(typeof type);
 document.write("<br>");
 
-var newType = String(type);
+var newType = Boolean(type);
 
-document.write(`after changing the tpe ${typeof newType}`);
+
+document.write(`after changing the tpe ${typeof newType} value is ${newType}`);
 
