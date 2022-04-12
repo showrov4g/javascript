@@ -51,12 +51,15 @@
 // document.write(age);
 // document.write(typeof age);
 
-let type = 1;
-document.write(typeof type);
-document.write("<br>");
+// let type = 1;
+// document.write(typeof type);
+// document.write("<br>");
 
-var newType = Boolean(type);
+// var newType = Boolean(type);
 
 
-document.write(`after changing the tpe ${typeof newType} value is ${newType}`);
+// document.write(`after changing the tpe ${typeof newType} value is ${newType}`);
 
+
+let str = "Showrov kumar Ghosh";
+document.write(str[4]);
