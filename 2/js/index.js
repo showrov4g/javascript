@@ -51,11 +51,11 @@
 // document.write(age);
 // document.write(typeof age);
 
-let type = 4;
+let type = false;
 document.write(typeof type);
 document.write("<br>");
 
 var newType = String(type);
 
-document.write(typeof newType);
+document.write(`after changing the tpe ${typeof newType}`);
 
