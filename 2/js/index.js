@@ -28,4 +28,27 @@
 //     }
 // }
 
-prompt("enter your age");
+// let age = prompt("enter your age");
+
+// if(age != null){
+//    document.write(`your age ${age}`); 
+// }else{
+//     document.write(`Your age is blank`);
+// } 
+
+// confirm(`are you sure, You want to delete?`)
+
+// let response = confirm(`are you sure, You want to delete?`);
+
+// if (response) {
+//     document.write(`deleted`);
+// } else {
+//     document.write(`not deleted`);
+// }
+
+// let age = 5 + null;
+
+// document.write(age);
+// document.write(typeof age);
+
+
