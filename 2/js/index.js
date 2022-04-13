@@ -68,8 +68,16 @@
 
 // document.write(sk[5]);
 
-let ghosh = "This is javascript partice.    I have   to   finish it";
+// let ghosh = "This is javascript partice.    I have   to   finish it";
 
-let tream_ghosh = ghosh.replace("finish", "end");
+// let tream_ghosh = ghosh.includes("I");
 
-document.write(tream_ghosh);
+// document.write(tream_ghosh);
+
+let book1 = "Accounting";
+let book2 = "Management";
+let book3 = "Finace";
+let book4 = "Marketing";
+
+
+document.write(book4);
