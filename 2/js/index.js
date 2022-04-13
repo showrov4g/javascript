@@ -68,8 +68,8 @@
 
 // document.write(sk[5]);
 
-let ghosh = "This is javascript partice. I have to finish it";
+let ghosh = "This is javascript partice.    I have   to   finish it";
 
-let substring = ghosh.lastIndexOf("is", 6);
+let tream_ghosh = ghosh.replace("finish", "end");
 
-document.write(substring);
+document.write(tream_ghosh);
