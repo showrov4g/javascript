@@ -61,5 +61,18 @@
 // document.write(`after changing the tpe ${typeof newType} value is ${newType}`);
 
 
-let str = "Showrov kumar Ghosh";
-document.write(str[4]);
+// let str = "Showrov kumar Ghosh";
+// document.write(str[4]);
+
+// let sk = "showrov ghosh";
+
+// document.write(sk[5]);
+
+
+let str = "showrov";
+
+let str2 = "Ghosh";
+
+let str3 = str.concat(` ${str2}`);
+
+document.write(str3);
