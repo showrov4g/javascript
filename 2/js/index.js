@@ -68,11 +68,8 @@
 
 // document.write(sk[5]);
 
+let ghosh = "This is javascript partice. I have to finish it";
 
-let str = "showrov";
+let substring = ghosh.lastIndexOf("is", 6);
 
-let str2 = "Ghosh";
-
-let str3 = str.concat(` ${str2}`);
-
-document.write(str3);
+document.write(substring);
