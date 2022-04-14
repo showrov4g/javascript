@@ -93,8 +93,9 @@
 
 // document.write(Array.isArray(book));
 
-let text  = "This is Random text";
+// let text  = "This is Random text";
+let book = ["Accounting", "Management", "Finance","Marketing"];
 
-let array_text = text.split(" ");
+let book2 = ["English" , "Bangla"]
 
-console.log(array_text);
+let new_book = book.concat(book2);
