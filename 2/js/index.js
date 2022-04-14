@@ -74,10 +74,27 @@
 
 // document.write(tream_ghosh);
 
-let book1 = "Accounting";
-let book2 = "Management";
-let book3 = "Finace";
-let book4 = "Marketing";
+// let book1 = "Accounting";
+// let book2 = "Management";
+// let book3 = "Finace";
+// let book4 = "Marketing";
 
+// let book = ["Accounting", "Management", "Finace", "Marketing"];
 
-document.write(book4);
+// // let book = new Array("Accounting", "Management", "Finace", "Marketing");
+// book.pop ();
+// book.pop();
+
+// document.write(book);
+
+// let book = ["Accounting", "Management", "Finance","Marketing"];
+
+// // let book = "Math";
+
+// document.write(Array.isArray(book));
+
+let text  = "This is Random text";
+
+let array_text = text.split(" ");
+
+console.log(array_text);
