@@ -96,6 +96,8 @@
 // let text  = "This is Random text";
 let book = ["Accounting", "Management", "Finance","Marketing"];
 
-let book2 = ["English" , "Bangla"]
+for(){
+    
+}
 
-let new_book = book.concat(book2);
+console.log(sk);
