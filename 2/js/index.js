@@ -94,10 +94,16 @@
 // document.write(Array.isArray(book));
 
 // let text  = "This is Random text";
-let book = ["Accounting", "Management", "Finance","Marketing"];
+// let book = ["Accounting", "Management", "Finance","Marketing"];
 
-for(){
-    
-}
+// let book_length = book.length;
+// for(i = 0; i < book_length; i++){
+//     console.log(`element ${i} is ${book[i]}\n`);
+// }
 
-console.log(sk);
+// let book = ["Accounting", "Management", "Finance", "Marketing"];
+// let book_length = book.length;
+
+// for(i = 0; i < book_length; i++){
+//     console.log(`Element ${i} is ${book[i]}\n`);
+// }
