@@ -107,3 +107,11 @@
 // for(i = 0; i < book_length; i++){
 //     console.log(`Element ${i} is ${book[i]}\n`);
 // }
+
+let book = ["Accounting", "Management", "Finance", "Marketing"];
+
+book.forEach(myfu);
+
+function myfu(value){
+    console.log(value);
+}
