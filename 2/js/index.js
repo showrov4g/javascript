@@ -110,8 +110,19 @@
 
 let book = ["Accounting", "Management", "Finance", "Marketing"];
 
-book.forEach(myfu);
+// book.forEach(myfu);
 
-function myfu(value){
-    console.log(value);
+// function myfu(value){
+//     console.log(value);
+// }
+
+// book.forEach(myfu)
+
+// function myfu (value){
+//     console.log(value);
+// }
+
+for(i = 1; i<= 10; i++){
+    document.write(`2 x ${i} = ${2 * i}`);
+    document.write("<br>")
 }
