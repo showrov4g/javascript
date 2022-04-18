@@ -55,3 +55,21 @@
 
 //     console.log(string);
 // })();
+// (function(){
+//     let msg = "hello my script";
+
+//     function show(){
+//         console.log(msg);
+//     }
+//     show();
+// })();
+
+
+// Object
+
+let person = {
+    firstName: "Showrov ghsoh",
+    lastName: 'kumar',
+};
+
+console.log(person.lastName);
