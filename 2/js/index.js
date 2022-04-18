@@ -5,9 +5,20 @@
 // }
 // add( 3 , 9 );
 
-function add(){
-    console.log(arguments.length);
-}
+// function add(){
+//     if(arguments.length == 0){
+//         console.log("No arguments passed !");
+//     }else{
+//         let sum =0;
+//         for(let i = 0; i < arguments.length; i++){
+//             sum = sum + arguments[i];
+//         }
+//         console.log(sum);
+//     }
+// }
 
-add ( 5 , 6);
-add(6, 4, 5, 7);
+// let addition = add;
+// addition(5, 5);
+// add(5, 7, 10);
+
+// function return
