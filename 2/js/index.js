@@ -50,9 +50,8 @@
 
 
 
-(function(){
-    let string = "hello";
+// (function(){
+//     let string = "hello";
 
-    console.log(string);
-    alert("hello world");
-})();
+//     console.log(string);
+// })();
