@@ -38,12 +38,21 @@
 // document.write(c);
 
 
-let car = "Audi";
+// let car = "Audi";
 
-function add(){
-    let result = 33;
-}
+// function add(){
+//     let result = 33;
+// }
 
-add();
+// add();
 
-console.log(result);
+// console.log(result);
+
+
+
+(function(){
+    let string = "hello";
+
+    console.log(string);
+    alert("hello world");
+})();
