@@ -36,3 +36,14 @@
 // let c = compare ( 7, 6);
 
 // document.write(c);
+
+
+let car = "Audi";
+
+function add(){
+    let result = 33;
+}
+
+add();
+
+console.log(result);
