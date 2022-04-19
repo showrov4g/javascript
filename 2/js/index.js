@@ -22,3 +22,17 @@
 // add(5, 7, 10);
 
 // function return
+
+
+// function compare(a, b){
+//     if(a > b){
+//         return 1;
+//     }else if(a < b){
+//         return -1;
+//     }else{
+//         return 0;
+//     }
+// }
+// let c = compare ( 7, 6);
+
+// document.write(c);
