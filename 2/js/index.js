@@ -67,9 +67,11 @@
 
 // Object
 
+
 let person = {
-    firstName: "Showrov ghsoh",
-    lastName: 'kumar',
+    first_name : "Showrov",
+    middle_name : "kumar",
+    last_name : "ghosh",
 };
 
-console.log(person.lastName);
+document.write(person.first_name);
