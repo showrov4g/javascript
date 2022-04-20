@@ -96,9 +96,12 @@
 //     model : "Indiga CS"
 // }
 
-var x = Math.ceil(4.1);
+function get_random(min, max){
+    var x = Math.floor(Math.random() * (max - min)) + min;
+    return x;
+}
 
-console.log(x);
+console.log(get_random(10, 20));
 
 
 
