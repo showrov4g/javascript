@@ -73,5 +73,14 @@ let person = {
     middle_name : "kumar",
     last_name : "ghosh",
 };
+person.age = 22;
+// for( let key in person){
+//     console.log(`${key} : ${person[key]} `);
+// }
 
-document.write(person.first_name);
+person.sayHello = function (){
+    console.log("hello !");
+}
+
+
+person.sayHello();
