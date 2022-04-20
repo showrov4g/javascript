@@ -72,15 +72,14 @@ let person = {
     first_name : "Showrov",
     middle_name : "kumar",
     last_name : "ghosh",
+    say_hello(){
+        console.log(`Hello i am ${person.first_name}. I have a ${car.brand}. This car model number is ${car.model}`);
+    }
 };
-person.age = 22;
-// for( let key in person){
-//     console.log(`${key} : ${person[key]} `);
-// }
-
-person.sayHello = function (){
-    console.log("hello !");
+let car = {
+    brand : "Tata",
+    model : "Indiga CS"
 }
+person.say_hello(); 
 
 
-person.sayHello();
