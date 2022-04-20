@@ -96,9 +96,9 @@
 //     model : "Indiga CS"
 // }
 
+var x = Math.ceil(4.1);
 
-
-console.log(Math.E);
+console.log(x);
 
 
 
