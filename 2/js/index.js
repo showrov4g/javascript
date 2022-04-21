@@ -96,12 +96,27 @@
 //     model : "Indiga CS"
 // }
 
-function get_random(min, max){
-    var x = Math.floor(Math.random() * (max - min)) + min;
-    return x;
-}
+// function get_random(min, max){
+//     var x = Math.floor(Math.random() * (max - min)) + min;
+//     return x;
+// }
 
-console.log(get_random(10, 20));
+// console.log(get_random(10, 20));
 
 
+// let x = new Date('October 13, 2018 11:12:33');
 
+
+// document.write(x.getDay());
+
+
+// document.write(Math.sin(90 * Math.PI / 180));
+
+// let x = new Date();
+
+// document.write(Date.now());
+
+let x = new Date("October 13, 2018 11:12:33");
+    x.setSeconds(9);
+    x.setFullYear(2020);
+document.write(x );
