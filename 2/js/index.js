@@ -120,10 +120,14 @@
 //  let y = x.setDate(x.getDate() + 50)
 // document.write(x );
 
-var x = new Date("October 13, 2022 11:12:33");
-var y = x.setDate(x.getDate() + 50);
+// var x = new Date("October 13, 2021 11:12:33");
+// var y = new Date();
 
 
-document.write(x);
-document.write("<br>");
-document.write(x);
+// if(x < y){
+//     document.write("X is past Date");
+// }else if(x > y){
+//     document.write("X is Future Date");
+// }else{
+//     document.write("X is Same Date");
+// }
