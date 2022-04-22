@@ -131,3 +131,12 @@
 // }else{
 //     document.write("X is Same Date");
 // }
+
+// new object in javaScript;
+
+var person = new Object();
+
+person.name = "Showrov";
+person.age = "22";
+
+document.write(person.name);
