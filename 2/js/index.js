@@ -142,26 +142,59 @@
 // document.write(person.name);
 
 
-function Student(first, last, age, cls){
-    this.firstName = first;
-    this.lastName = last;
-    this.age = age;
-    this.class = cls;
-    this.nationality = "Bangladeshi";
-    // this.name = function(){
-    //     return this.firstName + " " + this.lastName;
-    // }
+// function Student(first, last, age, cls){
+//     this.firstName = first;
+//     this.lastName = last;
+//     this.age = age;
+//     this.class = cls;
+//     this.nationality = "Bangladeshi";
+//     // this.name = function(){
+//     //     return this.firstName + " " + this.lastName;
+//     // }
+// }
+
+// var student1 = new Student("showrov", "kumar", 25 , 5);
+// var student2 = new Student("sk", "kumar", 25 , 5);
+// var student3 = new Student("dk", "kumar", 25 , 5);
+// var student4 = new Student("ak", "kumar", 25 , 5);
+
+// Student.prototype.nationality = "Indian";
+// Student.prototype.name = function (){
+//     return this.firstName + " " + this.lastName;
+// }
+
+
+// console.log(student1.name()); 
+
+
+// var user = {
+//     id : 101,
+//     email: "showrovghosh390@gmail.com",
+//     personal_info: {
+//         name: "Sk Ghosh",
+//         adderss: {
+//             street: "dsgsgs",
+//             city: "Dhaka",
+//             country: "Bangladesh",
+//         }
+//     }
+// }
+
+// console.log(user.personal_info.adderss.country);
+
+
+
+var user = {
+    id: 102,
+    email: "showrovghosh@gmail.com",
+    personal_info: {
+        name: "sk ghosh",
+        address: {
+            street: "fuk",
+            city: "Dhaka",
+            country: "Bangladesh",
+        }
+    }
 }
 
-var student1 = new Student("showrov", "kumar", 25 , 5);
-var student2 = new Student("sk", "kumar", 25 , 5);
-var student3 = new Student("dk", "kumar", 25 , 5);
-var student4 = new Student("ak", "kumar", 25 , 5);
-
-Student.prototype.nationality = "Indian";
-Student.prototype.name = function (){
-    return this.firstName + " " + this.lastName;
-}
-
-
-console.log(student1.name()); 
+console.log(user.personal_info.address.city);
