@@ -148,9 +148,9 @@ function Student(first, last, age, cls){
     this.age = age;
     this.class = cls;
     this.nationality = "Bangladeshi";
-    this.name = function(){
-        return this.firstName + " " + this.lastName;
-    }
+    // this.name = function(){
+    //     return this.firstName + " " + this.lastName;
+    // }
 }
 
 var student1 = new Student("showrov", "kumar", 25 , 5);
@@ -158,10 +158,10 @@ var student2 = new Student("sk", "kumar", 25 , 5);
 var student3 = new Student("dk", "kumar", 25 , 5);
 var student4 = new Student("ak", "kumar", 25 , 5);
 
-// student1.nationality = "Bangladeshi";
-// student1.name = function(){
-//     return this.firstName + " " + this.lastName;
-// }
+Student.prototype.nationality = "Indian";
+Student.prototype.name = function (){
+    return this.firstName + " " + this.lastName;
+}
 
 
-console.log(student3); 
+console.log(student1.name()); 
