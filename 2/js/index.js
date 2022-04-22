@@ -134,9 +134,34 @@
 
 // new object in javaScript;
 
-var person = new Object();
+// var person = new Object();
 
-person.name = "Showrov";
-person.age = "22";
+// person.name = "Showrov";
+// person.age = "22";
 
-document.write(person.name);
+// document.write(person.name);
+
+
+function Student(first, last, age, cls){
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.class = cls;
+    this.nationality = "Bangladeshi";
+    this.name = function(){
+        return this.firstName + " " + this.lastName;
+    }
+}
+
+var student1 = new Student("showrov", "kumar", 25 , 5);
+var student2 = new Student("sk", "kumar", 25 , 5);
+var student3 = new Student("dk", "kumar", 25 , 5);
+var student4 = new Student("ak", "kumar", 25 , 5);
+
+// student1.nationality = "Bangladeshi";
+// student1.name = function(){
+//     return this.firstName + " " + this.lastName;
+// }
+
+
+console.log(student3); 
