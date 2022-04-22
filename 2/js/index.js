@@ -116,7 +116,14 @@
 
 // document.write(Date.now());
 
-let x = new Date("October 13, 2018 11:12:33");
-    x.setSeconds(9);
-    x.setFullYear(2020);
-document.write(x );
+// let x = new Date("October 13, 2022 11:12:33");
+//  let y = x.setDate(x.getDate() + 50)
+// document.write(x );
+
+var x = new Date("October 13, 2022 11:12:33");
+var y = x.setDate(x.getDate() + 50);
+
+
+document.write(x);
+document.write("<br>");
+document.write(x);
