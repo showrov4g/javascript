@@ -184,17 +184,31 @@
 
 
 
+// var user = {
+//     id: 102,
+//     email: "showrovghosh@gmail.com",
+//     personal_info: {
+//         name: "sk ghosh",
+//         address: {
+//             street: "fuk",
+//             city: "Dhaka",
+//             country: "Bangladesh",
+//         }
+//     }
+// }
+// console.log(user.personal_info.address.city);
+
 var user = {
-    id: 102,
-    email: "showrovghosh@gmail.com",
-    personal_info: {
-        name: "sk ghosh",
+    id : 102,
+    email: "showrovghosh390@gmail.com",
+    personal_info:{
+        name: "Sk ghosh",
         address: {
-            street: "fuk",
-            city: "Dhaka",
-            country: "Bangladesh",
+            street: 'kaligong',
+            city: "jehnaidah",
+            Country: "Bangladesh",
         }
     }
 }
 
-console.log(user.personal_info.address.city);
+console.log(user);
