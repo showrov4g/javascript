@@ -198,17 +198,24 @@
 // }
 // console.log(user.personal_info.address.city);
 
-var user = {
-    id : 102,
-    email: "showrovghosh390@gmail.com",
-    personal_info:{
-        name: "Sk ghosh",
-        address: {
-            street: 'kaligong',
-            city: "jehnaidah",
-            Country: "Bangladesh",
-        }
-    }
-}
+// var user = {
+//     id : 102,
+//     email: "showrovghosh390@gmail.com",
+//     personal_info:{
+//         name: "Sk ghosh",
+//         address: {
+//             street: 'kaligong',
+//             city: "jehnaidah",
+//             Country: "Bangladesh",
+//         }
+//     }
+// }
 
-console.log(user);
+// console.log(user.personal_info.address.city);
+
+// hoster
+
+ghosh();
+function ghosh(){
+    console.log("Hello world");
+}
