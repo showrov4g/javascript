@@ -215,7 +215,11 @@
 
 // hoster
 
-ghosh();
-function ghosh(){
-    console.log("Hello world");
-}
+// ghosh();
+// function ghosh(){
+//     console.log("Hello world");
+// }
+
+var x ;
+x = 7;
+console.log(x);
