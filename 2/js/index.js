@@ -220,6 +220,6 @@
 //     console.log("Hello world");
 // }
 
-var x ;
-x = 7;
-console.log(x);
+// var x ;
+// x = 7;
+// console.log(x);
