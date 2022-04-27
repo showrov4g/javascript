@@ -77,38 +77,29 @@
     }
 </script> -->
 
-<ul>
+<!-- <ul>
     <li class="sk">List 1</li>
     <li id="Ghosh">List 2</li>
     <li class="sk">List 3</li>
     <li class="sk">List 4</li>
-</ul>
+</ul> -->
 
 <h1>This is Heading 1</h1>
-<p>This is Padding 1</p>
+<p class="intro">This is Padding 1</p>
 <h1>This is Heading 2</h1>
-<p>This is paragraph 2</p>
+<p class="intro">This is paragraph 2</p>
 <h1>this is heading 3</h1>
-<p>This is paragraph3</p>
+<p class="intro">This is paragraph3</p>
 <h1>this is Heading 4</h1>
-<p>This is paragraph 4</p>
-
+<p class="intro">This is paragraph 4</p>
 
 <script>
-    let ghj = document.getElementById("Ghosh");
-    ghj.innerText = "ghosh";
-    let ffh = document.getElementsByClassName("sk")
 
-    for(let i = 0; i < ffh.length; i++){
-       ffh[i].innerHTML = '<h1> Showrov </h1>';
+    let x = document.querySelectorAll("p.intro");
+    console.log(x);
+    for(i = 0; i < x.length; i++){
+        x[i].innerText = "Hora krishna";
     }
-
-    // list javascript
-    let heading = document.getElementsByTagName('h1');
-    for(i = 0; i <heading.length; i++){
-        heading[i].innerText = 'Showrov ghosh';
-    }
-
 </script>
 
 
