@@ -84,22 +84,27 @@
     <li class="sk">List 4</li>
 </ul> -->
 
-<h1>This is Heading 1</h1>
-<p class="intro">This is Padding 1</p>
-<h1>This is Heading 2</h1>
-<p class="intro">This is paragraph 2</p>
-<h1>this is heading 3</h1>
-<p class="intro">This is paragraph3</p>
-<h1>this is Heading 4</h1>
-<p class="intro">This is paragraph 4</p>
+<ul>
+    <li id="intro">1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ul>
+<ul>
+    <li id="two" >a</li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+</ul>
 
 <script>
+    let ele = document.getElementById("intro");
+    let next = ele.parentElement;
+    console.log(next);
 
-    let x = document.querySelectorAll("p.intro");
-    console.log(x);
-    for(i = 0; i < x.length; i++){
-        x[i].innerText = "Hora krishna";
-    }
+    let _2nd = document.getElementById("two")
+    let _2ndn = _2nd.parentElement;
+    console.log(_2ndn);
 </script>
 
 
