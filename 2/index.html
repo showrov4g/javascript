@@ -4,110 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Javascript</title>
 </head>
 <body>
-
-<!-- <ul>
-    <li class="cl pi" >List 1</li>
-    <li id="first">List 2</li>
-    <li class="cl" >List 3</li>
-</ul>    
-
-    <h2>Heading 1</h2>
-    <p>Paragraph 1</p>
-    
-<div id="div1">
-    <h2>Heading 2</h2>
-    <p>Pragraph 2</p>
-    <h2>Heading 3</h2>
-    <p>pragraph 3</p>
-    <h2>Heading 4</h2>
-    <p>Pragraph 4</p>
-</div>
+    <ul id="demo">
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+        <li>list 4</li>
+    </ul>
 
 
-<script>
-    let div1 = document.getElementById("div1");
-
-    let ele = div1.getElementsByTagName("h2");
-
-    for(let i=0; i <ele.length; i++){
-        ele[i].innerHTML = "Hello";
-    }
-
-</script> -->
-
-
-<!-- <ul>
-    <li id="sk">list 1</li>
-    <li class="gk">list 2</li>
-    <li class="gk">list 3</li>
-</ul>
- <script>
-    let hgh = document.getElementById("sk");
-    hgh.innerHTML = "<h2>sk ghosh</h2>";
-    let dhj = document.getElementsByClassName("gk");
-
-    for (let i = 0; i < dhj.length; i++) {
-       dhj[i].innerHTML = "<h1>Shovo ghosh</h1>"
-        
-    }
-
-
-
- <!-- </script>
-<h1>This is heading 1</h1>
-<div id="div1">
-<p>This is Paragraph 1</p>
-<h1>this is heading 2</h1>
-<p>this is paragraph 2</p>
-<h1>this is heading 3</h1>
-<p>this is paragraph 3</p>
-<h1>this is heading 4</h1>
-<p>this is paragraph 4</p>
-<div>
-
-<script>
-    let div1 = document.getElementById("div1");
-    let elm = div1.getElementsByTagName("h1")
-    for (let i = 0; i < elm.length; i++) {
-        elm[i].innerHTML = "ghosh";
-        
-    }
-</script> -->
-
-<!-- <ul>
-    <li class="sk">List 1</li>
-    <li id="Ghosh">List 2</li>
-    <li class="sk">List 3</li>
-    <li class="sk">List 4</li>
-</ul> -->
-
-<ul>
-    <li id="intro">1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-</ul>
-<ul>
-    <li id="two" >a</li>
-    <li>b</li>
-    <li>c</li>
-    <li>d</li>
-</ul>
-
-<script>
-    let ele = document.getElementById("intro");
-    let next = ele.parentElement;
-    console.log(next);
-
-    let _2nd = document.getElementById("two")
-    let _2ndn = _2nd.parentElement;
-    console.log(_2ndn);
-</script>
-
-
+    <script>
+        let fer = document.getElementById("demo");
+        let ele = fer.lastElementChild;
+        console.log(ele);
+    </script>
 
 
 
