@@ -8,8 +8,35 @@
 </head>
 <body>
 
+<ul id="list">
+    <li>list 1</li>
+    <li>list 2</li>
+    <li>list 3</li>
+    <li>list 4</li>
+</ul>
 
 
+<script>
+    // let list_1 = document.getElementById("list");
+    // let item = document.createElement("li");
+    // item.textContent = "new list 5";
+
+    // list_1.appendChild(item);
+
+
+    // // insert before
+    // let position = list_1.firstElementChild.nextElementSibling;
+    // list_1.insertBefore(item, position);
+
+    let parent = document.body;
+    let ele = document.createElement("h2");
+    ele.textContent = "this is new element";
+
+    let list = document.getElementById("list");
+
+    parent.insertBefore(ele, list);
+
+</script>
 
 
 
