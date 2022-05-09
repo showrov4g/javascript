@@ -8,37 +8,34 @@
 </head>
 <body>
 
-<ul id="list">
-    <li>list 1</li>
-    <li>list 2</li>
-    <li>list 3</li>
-    <li>list 4</li>
-</ul>
-
+<!-- <ol id="menu">
+    <li>Home</li>
+    <li>Product</li>
+    <li>About us</li>
+</ol>
 
 <script>
-    // let list_1 = document.getElementById("list");
-    // let item = document.createElement("li");
-    // item.textContent = "new list 5";
+ let menu = document.getElementById("menu");
+ let cole = menu.cloneNode(true);
+ cole.id =  "mobile menu"
+ document.body.appendChild(cole);
+</script> -->
 
-    // list_1.appendChild(item);
+<ul id="menu">
+    <li>Home</li>
+    <li>Product</li>
+    <li>About</li>
+</ul>
 
+<script>
+    let parent = document.getElementById("menu");
+    let item = document.createElement("li");
+    item.textContent = "Services";
+    let rplace = parent.firstElementChild.nextElementSibling;
 
-    // // insert before
-    // let position = list_1.firstElementChild.nextElementSibling;
-    // list_1.insertBefore(item, position);
-
-    let parent = document.body;
-    let ele = document.createElement("h2");
-    ele.textContent = "this is new element";
-
-    let list = document.getElementById("list");
-
-    parent.insertBefore(ele, list);
+    parent.replaceChild(item, rplace )
 
 </script>
-
-
 
 
 </body>
