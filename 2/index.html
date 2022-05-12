@@ -5,28 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript</title>
+    <style>
+        .color{
+            background-color: gray;
+            color: blue;
+        }
+        .dim{
+            border: 1px solid red;
+            padding: 100px;
+        }
+    </style>
 </head>
 <body>
 
-<!-- <ol id="menu">
-    <li>Home</li>
-    <li>Product</li>
-    <li>About us</li>
-</ol>
-
-<script>
- let menu = document.getElementById("menu");
- let cole = menu.cloneNode(true);
- cole.id =  "mobile menu"
- document.body.appendChild(cole);
-</script> -->
-
-<button id="btn" name="form1">Send</button>
+<div id="box" class="color">
+    <p>This is dummy text!</p>
+</div>
 
 
 <script>
-    let btn = document.getElementById("btn");
-    btn.style.fontSize = "50px";
+
+    let box = document.getElementById("box");
+    // console.log(box.className);
+    box.className += " dim";
+    
+
 </script>
 
 </body>
