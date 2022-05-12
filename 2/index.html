@@ -21,22 +21,13 @@
  document.body.appendChild(cole);
 </script> -->
 
-<ul id="menu">
-    <li>Home</li>
-    <li>Product</li>
-    <li>About</li>
-</ul>
+<button id="btn">Send</button>
+
 
 <script>
-    let parent = document.getElementById("menu");
-    let item = document.createElement("li");
-    item.textContent = "Services";
-    let rplace = parent.firstElementChild.nextElementSibling;
-
-    parent.replaceChild(item, rplace )
-
+    let btn = document.getElementById("btn");
+    btn.setAttribute("class","form1" );
 </script>
-
 
 </body>
 </html>
