@@ -1,2 +1,2 @@
-let a = "Apu";
-let b = "Banchod";
+const a = "Apu sarkar Banchod";
+console.log (a);
