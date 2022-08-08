@@ -1,2 +1,2 @@
-const a = "Apu sarkar Banchod";
+const a = "হরে কৃষ্ণ হরে কৃষ্ণ, কৃষ্ণ কৃষ্ণ, হরে হরে, হরে রাম হরে রাম, রাম রাম হরে হরে  ";
 console.log (a);
