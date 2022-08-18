@@ -21,18 +21,13 @@
 // for(let a in obj){
 //     console.log("mark of "+ a + " are "+ obj[a]);
 // }
-
-let ghosh = {
-    showrov: 100,
-    Dipu: 100,
-    Topu: 100,
-};
-// for (let a in ghosh){
-//     console.log("mark of" + a + "are" + ghosh[a] );
+// let text = "showrov  ghosh";
+// let i = 0;
+// while (i < 10) {
+//   text += "</br> The number is " + i;
+//   i++;
 // }
-for( let a in ghosh){
-    console.log("mark of" + a + " are " + ghosh[a]);
-}
-for( let b of "shree_showrov_kumar_ghosh"){
-    console.log(b);
-}
+// console.log(text);
+
+// whole loop start ==========================================================================
+
