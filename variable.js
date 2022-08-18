@@ -22,28 +22,17 @@
 //     console.log("mark of "+ a + " are "+ obj[a]);
 // }
 
-// for(let b of "showrov"){
-//     console.log(b);
-// }
-
-// let sum = 0;
-// let n = prompt("inter the valu of n");
-// n = Number.parseInt(n);
-
-// for(let i = 0; i < n; i++){
-//     sum += (i+1);
-// }
-// console.log("sum of first" +" "+ n + "natural number is" + sum );
-
-let num = {
+let ghosh = {
     showrov: 100,
-    Bapi: 99,
-    apu: 0,
-    anando: 30
+    Dipu: 100,
+    Topu: 100,
+};
+// for (let a in ghosh){
+//     console.log("mark of" + a + "are" + ghosh[a] );
+// }
+for( let a in ghosh){
+    console.log("mark of" + a + " are " + ghosh[a]);
 }
-for(let a in num){
-    console.log("mark of " + a + " are " + num[a]);
-}
-for (b of "showrov"){
+for( let b of "shree_showrov_kumar_ghosh"){
     console.log(b);
 }
