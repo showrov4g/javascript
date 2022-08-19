@@ -31,3 +31,18 @@
 
 // whole loop start ==========================================================================
 
+// let n = prompt("inter the value of n");
+// n = Number.parseInt(n);
+// let i = 0;
+// do{
+//     console.log(i);
+//     i++
+// }while(i<n);
+
+let n = prompt("inter the value of n ");
+n = Number.parseInt(n);
+let i = 0;
+do{
+    console.log(i);
+    i++
+}while(i < n);
