@@ -48,16 +48,32 @@
 // }while(i < n);
 // fucntion start 
 
+// function one_plus_avg(x, y){
+//     console.log("done");
+//     return Math.round(1 + (x + y)/2);
+// }
+
+// let a = 1;
+// let b = 2;
+// let c = 3;
+// console.log("one plush average of a and b is", one_plus_avg(a , b));
+// console.log("one plush average of b and b is", one_plus_avg(b,c));
+// console.log("one plush average of a and c is", one_plus_avg(c,a) );
+
 function one_plus_avg(x, y){
-    console.log("done");
-    return Math.round(1 + (x + y)/2);
+    return Math.round(1 +( x + y)/2);
 }
 
-
+const sum = (p,q)=>{
+    return p + q;
+}
 
 let a = 1;
 let b = 2;
 let c = 3;
-console.log("one plush average of a and b is", one_plus_avg(a , b));
-console.log("one plush average of b and b is", one_plus_avg(b,c));
-console.log("one plush average of a and c is", one_plus_avg(c,a) );
+console.log("One plus average of a and b is", one_plus_avg(a, b) );
+console.log("One plus average of b and c is", one_plus_avg(b, c) );
+console.log("One plus average of b and a is", one_plus_avg(b, a) );
+console.log("One plus average of a and c is", one_plus_avg(a, c) );
+
+console.log(sum(9 ,7));
