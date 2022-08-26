@@ -51,3 +51,7 @@
 
 
 // array learning
+//start
+
+let ghosh = "showrov";
+console.log(ghosh);
