@@ -1,0 +1,1 @@
+document.getElementById("my_image").src = "s2.jpg";
