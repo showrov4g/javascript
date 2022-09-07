@@ -1,1 +1,2 @@
-document.getElementById("my_image").src = "s2.jpg";
+document.getElementById("demo").innerHTML = "To Days time:" + Date();
+document.write(Date());
