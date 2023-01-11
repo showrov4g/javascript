@@ -1,4 +1,4 @@
-let x = BigInt(999999999999999);
-let type = typeof x;
+let x = Number.parseFloat("showrov");
 
-document.write(type);
+document.write(x);
+console.log(typeof(x));
