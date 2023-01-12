@@ -1,4 +1,4 @@
-let x = Number.parseFloat("showrov");
+let x = Number.NaN;
 
 document.write(x);
 console.log(typeof(x));
