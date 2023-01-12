@@ -1,4 +1,8 @@
-let x = Number.NaN;
+// string operator 
 
-document.write(x);
-console.log(typeof(x));
+let x = 11;
+let y = 12;
+let z = x / y;
+
+document.write(z);
+console.log(x);
