@@ -1,8 +1,4 @@
-// string operator 
+let x = "apple, samsung, sony";
+let y =x.slice( 7, 14);
 
-let x = 11;
-let y = 12;
-let z = x / y;
-
-document.write(z);
-console.log(x);
+document.write(y);
