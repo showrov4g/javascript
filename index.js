@@ -1,5 +1,4 @@
-let first_name = "Showrov";
-let last_name = "Ghosh";
-let x = first_name.slice(2, 5);
+let a = 3;
+let b = 4;
 
-document.write(x);
+document.write((100+ 50)*a);
