@@ -1,4 +1,5 @@
-let x = "apple, samsung, sony";
-let y =x.slice( 7, 14);
+let first_name = "Showrov";
+let last_name = "Ghosh";
+let x = first_name.slice(2, 5);
 
-document.write(y);
+document.write(x);
