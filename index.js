@@ -1,7 +1,4 @@
-// area calculation 
-let base = prompt("inter the base=");
-let height = prompt("inter the height value = ");
+let farn = parseFloat(prompt("enter farenheight value"));
+var cell = (farn-32);
 
-let area = base * height;
-
-document.write("area ="+ area);
+document.write("Celsius = " + cell);
