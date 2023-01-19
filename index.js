@@ -1,28 +1,20 @@
-console.log(80>=70);
-
-// if (new Date().getHours(10) > 18) {
-//     document.getElementById("demo").innerHTML = "Good day!";
-//   }
-
-// const hour = new Date().getHours(20); 
+// const time = new Date().getHours();
 // let greeting;
-
-// if (hour < 18) {
+// if (time < 10) {
+//   greeting = "Good morning";
+// } else if (time < 20) {
 //   greeting = "Good day";
 // } else {
 //   greeting = "Good evening";
 // }
+// document.getElementById("demo").innerHTML = greeting;
 
-// document.getElementById("demo").innerHTML = "greeting";
-
-let hour = new Date().getHours(20);
-
+const time = new Date().getHours();
 let greeting;
-
-if(hour < 24){
-    greeting = "good Day";
+if(time < 10){
+    greeting = "Good morning";
+}else if (time < 20){
+    greeting = "Good Day";
 }else{
-    greeting = "Good Evenging";
+    greeting = "Good evening";
 }
-
-document.getElementById("demo").innerHTML = greeting;
