@@ -1,20 +1,9 @@
-// const time = new Date().getHours();
-// let greeting;
-// if (time < 10) {
-//   greeting = "Good morning";
-// } else if (time < 20) {
-//   greeting = "Good day";
-// } else {
-//   greeting = "Good evening";
-// }
-// document.getElementById("demo").innerHTML = greeting;
+let x = 12;
+let y = 15;
 
-const time = new Date().getHours();
-let greeting;
-if(time < 10){
-    greeting = "Good morning";
-}else if (time < 20){
-    greeting = "Good Day";
+if(x > y){
+    alert(" 'X' is greater than 'Y' ");
 }else{
-    greeting = "Good evening";
+    alert(" 'Y' is greater than 'x' ");
 }
+
