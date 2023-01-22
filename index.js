@@ -1,11 +1,11 @@
-let num = prompt("input your number");
+let num = prompt("inter the name candidate");
 
-if(num => 100){
-    document.write("good");
-}else if(num => 80){
-    document.write("better")
-}else if (num => 50){
-    document.write("best");
+if(num => "showrov"){
+    document.write("Showrov ghosh is One of the best programmer in this")
+}else if(num => "dipu"){
+    document.write("he is good boy");
+}else if (num => 'topu'){
+    document.write("he is very intelegent");
 }else{
-    document.write("fail")
+    document.write("input the right name");
 }
