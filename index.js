@@ -6,6 +6,4 @@ if(num => "showrov"){
     document.write("he is good boy");
 }else if (num => 'topu'){
     document.write("he is very intelegent");
-}else{
-    document.write("input the right name");
 }
