@@ -1,15 +1,53 @@
-let marks = prompt("Inter your number");
+// switch statement 
 
-if(marks >= 80 && marks <= 100) {
-    document.getElementById("demo").innerHTML = "A+"
-}else if(marks >= 70 && marks <= 79) {
-    document.getElementById("demo").innerHTML = "A"
-}else if(marks >= 60 && marks <= 69) {
-    document.getElementById("demo").innerHTML = "B"
-}else if(marks >= 50 && marks <= 59) {
-    document.getElementById("demo").innerHTML = "c"
-}else if(marks >= 40 && marks <= 49) {
-    document.getElementById("demo").innerHTML = "D"
-}else{
-    document.getElementById("demo").innerHTML = "Fail";
+// let day;
+// switch (new Date().getDay()) {
+//   case 0:
+//     day = "Sunday";
+//     break;
+//   case 1:
+//     day = "Monday";
+//     break;
+//   case 2:
+//     day = "Tuesday";
+//     break;
+//   case 3:
+//     day = "Wednesday";
+//     break;
+//   case 4:
+//     day = "Thursday";
+//     break;
+//   case 5:
+//     day = "Friday";
+//     break;
+//   case  6:
+//     day = "Saturday";
+// }
+// document.getElementById("demo").innerHTML = "Today is " + day;
+// console.log(day);
+
+
+let day;
+switch(new Date().getDay()){
+        case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case  6:
+        day = "Saturday";
 }
+console.log(day);
