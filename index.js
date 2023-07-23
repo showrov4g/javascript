@@ -1,4 +1,4 @@
-let a = 10;
-a %= 5;
+let k = 150, l = 200;
 
-document.write(a);
+let operation = (k < 150) ? (l > 200);
+document.write(operation);
