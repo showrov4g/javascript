@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* hearder area style */
+header{
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* creating two collums with floating each other */
+nav{
+    float: left;
+    width: 30%;
+    height: 300px;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+/* style list item  */
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+article{
+    float: left;
+    width: 70%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    height: 300px;
+}
+
+/* clear float after creating colums */
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* style the footer */
+
+footer{
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+/* make it responsive */
+@media(max-width:600px){
+    nav,article{
+        width: 100%;
+        height: auto;
+    }
+}
