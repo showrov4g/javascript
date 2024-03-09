@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: #000;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+/* container for flexboxes */
+section{
+    display: -webkit-flex;
+    display: flex;
+}
+nav{
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #ccc;
+    padding: 20px;
+}
+/* style the list insdide the menu  */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul a{
+    text-decoration: none;
+}
+/* style the content */
+ article{
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background: #f1f1f1;
+    padding: 10px;
+ }
+
+ /* style the footer area */
+
+ 
+ footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+
+ }
