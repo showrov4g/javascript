@@ -9,19 +9,25 @@
 </head>
 <body>
     
+    <button onclick="getLoction()">Click Here</button>
+    <p id="demo"></p>
 
-    <h1>form element </h1>
 
-    <form action="" oninput="x.value=parseInt(a.value)+ parseInt(b.value)">
-        0
-        <input type="range" id="a" name="a" value="50">
-        100+
-        <input type="number" id="b" name="b" value="10">
-        =
-        <output name="x" for="a b"></output>
-        <input type="submit">        
-    </form>
-    
+    <script>
+        const x = document.getElementById("demo");
+
+        function getLoction(){
+            if (navigator.geolocation){
+                navigator.geolocation.getCurrentPosition(showPosition);
+            }else{
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position){
+            x.innerHTML = "Lattitude" + position.coords.latitude +"<br> Longitude" + position.coords.longitude;
+        }
+    </script>
 
 
 </body>
