@@ -3,32 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Css learning</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+
+
+    <!-- Start learning Css  -->
+     <h1>CSS learning</h1>
+
+     <a href="#">This Is Link</a>
+
+
+
     
-    <button onclick="getLoction()">Click Here</button>
-    <p id="demo"></p>
 
 
-    <script>
-        const x = document.getElementById("demo");
-
-        function getLoction(){
-            if (navigator.geolocation){
-                navigator.geolocation.getCurrentPosition(showPosition);
-            }else{
-                x.innerHTML = "Geolocation is not supported by this browser.";
-            }
-        }
-
-        function showPosition(position){
-            x.innerHTML = "Lattitude" + position.coords.latitude +"<br> Longitude" + position.coords.longitude;
-        }
-    </script>
-
-
+    
 </body>
 </html>
