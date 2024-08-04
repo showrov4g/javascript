@@ -2,6 +2,6 @@
 
 // console.log(x);
 
-let x = 20>10;
+let age;
 
-console.log(x);
+console.log(age)
