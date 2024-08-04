@@ -2,6 +2,7 @@
 
 // console.log(x);
 
-let age;
+let age = "He is " + "30"+ "years old";
 
-console.log(age)
+console.log(age);
+console.log(typeof(age));
