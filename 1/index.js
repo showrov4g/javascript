@@ -2,7 +2,7 @@
 
 // console.log(x);
 
-let number = null;
-
-console.log(number);
-console.log(typeof number);
+function sk(){
+    console.log("showrov kumar");
+}
+sk()
