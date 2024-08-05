@@ -5,4 +5,5 @@
 function sk(){
     console.log("showrov kumar");
 }
-sk()
+sk();
+console.log(typeof sk);
