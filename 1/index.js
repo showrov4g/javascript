@@ -1,7 +1,5 @@
-// let x = 10;
+let a = "javaScript";
 
-// console.log(x);
+a += " Tutorial";
 
-function sk(){
-    console.log("showrov kumar");
-}
+console.log(a);
