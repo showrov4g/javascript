@@ -1,5 +1,3 @@
-let a = "javaScript";
-
-a += " Tutorial";
-
-console.log(a);
+if(false){
+    console.log("executed")
+}
