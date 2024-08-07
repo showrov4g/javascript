@@ -1,12 +1,9 @@
-let country = "India";
-let age = 19 ;
+let value = "Showrov ghosh";
 
-if (age >= 18){
-    console.log("You got your Identity Card");
-}
-else if(age >= 16){
-    console.log("you are a teenager")
-}
-else{
-    console.log("You are not Eligible");
+switch (typeof value){
+    case "number":
+        console.log("number");
+        break;
+    case "string":
+        console.log("string");
 }
