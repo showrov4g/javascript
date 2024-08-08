@@ -1,13 +1,31 @@
-let value = [];
+let dayName = 3;
 
-switch (typeof value){
-    case "number":
-        console.log("number");
+switch (dayName) {
+    case 1:
+        dayName = "Sunday";
         break;
-    case "string":
-        console.log("string");
-    case "boolean":
-        console.log("boolean");
-    default:
-        console.log("other");
+    case 2:
+        dayName = "Monday";
+        break;
+    case 3:
+        dayName = "tuesday";
+        break;
+    case 4:
+        dayName = "Wednesday";
+        break;
+    case 5:
+        dayName = "Tuesday";
+        break;
+    case 6:
+        dayName = "Friday";
+        break;
+    case 7:
+        dayName = "Saturday";
+        break;
+
+    default: 
+        dayName = "not a valid day";
+        break;
 }
+
+console.log("this day is: " + dayName);
