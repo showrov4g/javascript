@@ -1,4 +1,4 @@
-let value = "Showrov ghosh";
+let value = [];
 
 switch (typeof value){
     case "number":
@@ -6,4 +6,8 @@ switch (typeof value){
         break;
     case "string":
         console.log("string");
+    case "boolean":
+        console.log("boolean");
+    default:
+        console.log("other");
 }
