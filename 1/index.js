@@ -1,6 +1,6 @@
+let i = 10;
 
-let codding = ["JavaScript", "java", "Python", "c++"];
-
-for(let i = 0; i < codding.length; i++){
-    console.log(codding[i]);
-}
+do {
+    console.log(i);
+    i++;
+} while (i <= 5);
