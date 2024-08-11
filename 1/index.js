@@ -1,6 +1,8 @@
-let i = 10;
 
-do {
+for (let i = 1; i <= 5 ; i++) {
+    if(i == 3){
+        continue;
+    }
     console.log(i);
-    i++;
-} while (i <= 5);
+    
+}
