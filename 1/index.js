@@ -1,7 +1,8 @@
 const person = {
-    firstName: "Showrov",
+    firstName : "Showrov",
+    midName : "Kumar",
     lastName: "ghosh",
     age: 35,
 }
 
-console.log(age);
+console.log(person["age"]);
