@@ -5,4 +5,6 @@ const person = {
     age: 35,
 }
 
-console.log(person["age"]);
+person.company = "google";
+
+console.log(person);
