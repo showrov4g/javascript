@@ -1,9 +1,7 @@
-function countDown(num) {
-    console.log(num);
-    num--;
-    if (num >= 0) {
-        countDown(num);
-    }
-
+const person = {
+    firstName: "Showrov",
+    lastName: "ghosh",
+    age: 35,
 }
-countDown(10);
+
+console.log(age);
