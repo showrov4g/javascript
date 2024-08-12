@@ -1,5 +1,5 @@
-let sum = function (x ,y){
-    return x + y;
-}
-
-console.log(sum(30,50));
+setTimeout(
+    function(){
+    console.log("welcome to my profile");
+} 
+,5000)
