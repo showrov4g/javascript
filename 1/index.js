@@ -1,9 +1,8 @@
+// this Keyword 
+
 const person = {
-    firsName: "Elon",
-    lastName: "Mask",
-    greet(){
-        console.log("Hello World");
-    }
+    firstName: "Showrov",
+    lastName: "ghosh",
 }
 
-person.greet();
+person.firstName
