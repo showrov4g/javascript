@@ -1,9 +1,9 @@
-function myFunction() {
-    if (condition) {
-        myFunction();
-    } else {
-
+function countDown(num) {
+    console.log(num);
+    num--;
+    if (num >= 0) {
+        countDown(num);
     }
-}
 
-myFunction();
+}
+countDown(10);
