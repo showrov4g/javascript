@@ -6,4 +6,6 @@ const person = {
 
 }
 
-console.log("age" in person);
+for(let prop in person){
+    console.log(person[prop]);
+}
