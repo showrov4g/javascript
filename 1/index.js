@@ -1,9 +1,7 @@
 const person = {
-    firsName: "eloin",
-    lastName: "mask",
-    greet: function greet(){
-        console.log("hello world");
+    firsName: "Elon",
+    lastName: "Mask",
+    greet(){
+        console.log("Hello World");
     }
 }
-person.greet();
-console.log(typeof person)
