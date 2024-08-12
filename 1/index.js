@@ -1,10 +1,13 @@
 function Person(first, last){
     this.firstName = first,
-    this.lastName = last
+    this.lastName = last,
+    this.getFullName = function(){
+        return this.firstName + " " + this.lastName
+    }
 }
 
-const person1 = new Person("showrov" , "ghosh");
-const person2 = new Person( "dipu", "ghosh");
+const Person1 = new Person("Showrov", "Ghosh");
+const Person2 = new Person ("Dipu", "ghosh");
 
-person1.age = 52;
-console.log(person1);
+console.log(Person2.getFullName());
+
