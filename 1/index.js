@@ -3,6 +3,13 @@ const person = {
     midName : "Kumar",
     lastName: "ghosh",
     age: 35,
+    address: {
+        street: "Tesla Road",
+        city: "Austin",
+        state: "Texas",
+        country:"United States",
+        zipCode: "78725"
+    }
 }
 
 person.company = "google";
