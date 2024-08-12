@@ -5,3 +5,5 @@ const person = {
         console.log("Hello World");
     }
 }
+
+person.greet();
