@@ -7,4 +7,7 @@ const person = {
 
 person.company = "google";
 
+delete person.midName;
+delete person.age; 
+
 console.log(person);
