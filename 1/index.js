@@ -10,4 +10,4 @@ Person.prototype.getFullName = function(){
 const Person1 = new Person("Elon", "musk");
 const Person2 = new Person("Bill", "Gates");
 
-console.log(Person1);
+console.log(Person2.getFullName());
