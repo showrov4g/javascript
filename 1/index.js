@@ -1,11 +1,13 @@
 
+let firstName = "sk";
+let lastName = "Ghosh";
+
+
 const person = {
-    firstName: "sk",
-    lastName: "ghosh"
+    firstName,
+    lastName
 }
+console.log(person);
 
-let {firstName, lastName, age} = person;
-
-console.log(age);
 
 
