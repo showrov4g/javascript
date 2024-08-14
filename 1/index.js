@@ -1,4 +1,5 @@
+let inputBox = document.getElementById("username");
 
-let menu = document.getElementById("menu");
 
-menu.insertAdjacentHTML("afterbegin", "<li>contact</li>"); 
+inputBox.setAttribute("class", "username");
+console.log(inputBox);
