@@ -1,3 +1,3 @@
-let btn =document.getElementsByName("language");
+let msg = document.getElementsByClassName("message");
 
-console.log(btn);
+console.log(msg);
