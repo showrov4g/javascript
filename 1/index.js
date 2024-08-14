@@ -1,3 +1,5 @@
-let msg = document.getElementsByClassName("message");
+let parent = document.querySelector(".title");
 
-console.log(msg);
+console.log(parent.firstElementChild);
+
+
