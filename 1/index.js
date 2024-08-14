@@ -1,5 +1,6 @@
 let inputBox = document.getElementById("username");
 
+inputBox.style.cssText += "width:200px; height: 100px";
 
-inputBox.setAttribute("class", "username");
-console.log(inputBox);
+console.log(inputBox)
+
