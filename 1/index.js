@@ -1,9 +1,9 @@
-let text = "the temperature is" + toCelsius(77) + "Celsius";
-
-document.getElementById("demo")
-.innerHTML = text;
-
-
-function toCelsius (fahrenheit){
-    return (5/9) * (fahrenheit-32);
+// learning js object  
+const person = {
+    firstName: "showrov",
+    lastName: "doe",
+    age: 50,
+    eyeColor: "blue"
 }
+
+document.getElementById("demo").innerHTML = person.firstName + " is " + person.age + " years old";
