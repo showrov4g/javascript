@@ -1,11 +1,16 @@
-const salary = 25000;
-const isBCS = true;
-const hasCar = false;
-const height = 60;
-
-if((salary > 25000 && hasCar == true) || isBCS == true ){
-    console.log("everyone is Happy")
-}else{
-    console.log("everyone is not happy");
+let price = 3000;
+if (price >= 5000) {
+    let discount = price * 10 / 100;
+    let payAmount = price - discount;
+    console.log(payAmount);
+}
+else if(price >= 3000){
+    //5% discount
+    let discount = price * 5/100;
+    let payAmount = price - discount;
+    console.log(payAmount);
+}
+ else {
+    console.log(price);
     
 }
