@@ -1,11 +1,13 @@
-const number = 50;
+let message = "I love myself very much";
 
-if (number < 10){
-    console.log("coto akta number paise")
+let count = 0;
+
+while (count <= 60) {
+    count++
+    console.log(message + count)
 }
 
-let num = 0;
-while (num < 5){
-    console.log("looping", num);
-    num++
+for (let num = 0; num < 5; num++) {
+    console.log(num);
+    
 }
