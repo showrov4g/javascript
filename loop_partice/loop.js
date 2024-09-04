@@ -1,12 +1,12 @@
-// for (let count = 1; count<=5; count++){
-//     console.log("Showrov Ghosh");
-// }
-// console.log("Loop ended");
 
-// let str = "I am a expert JavaScript Developer";
-// let size = 0
-// for( let value of str ){
-//     console.log(value);
-//     size++
+// // Print even or odd number 
+
+// for (let i = 0; i <= 100; i++) {
+//     if(i%2 !== 0){
+//        console.log(i);
+//     }
 // }
-// console.log("string size =", size);
+
+// creating game number 
+
+let gameNum = 2;
