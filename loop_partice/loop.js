@@ -9,4 +9,11 @@
 
 // creating game number 
 
-let gameNum = 2;
+let gameNum = 25;
+
+let userNum = prompt("Guess the game number :");
+while( userNum != gameNum){
+   userNum = prompt("you enter wrong number, try new number");
+}
+
+console.log('you enter the right number');
