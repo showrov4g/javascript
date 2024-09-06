@@ -1,5 +1,9 @@
-function sum(x, y) {
-    console.log(x + y);
+function difference(num1, num2){
+    const diff = num1 - num2;
+    console.log(num1, num2, "difference is", diff);
 }
 
-sum(5,8);
+const fatherAge = 40;
+const myAge = 10;
+
+difference(fatherAge, myAge);
