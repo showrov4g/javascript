@@ -22,10 +22,3 @@ function isLeapYear2(year) {
 let lepYear = isLeapYear2(2023);
 // console.log(lepYear);
 
-function oddAverage(numbers) {
-
-}
-
-const numbers = [42, 45, 13, 58, 65, 81];
-const avg = oddAverage(numbers);
-console.log('average of the odd numbers is:', avg);
