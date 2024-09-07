@@ -28,3 +28,8 @@ function getThreeNumberMax(num1,num2,num3){
 let maxNumber = getThreeNumberMax(81, 80, 78);
 
 console.log(maxNumber);
+
+
+let max = Math.max(12,3, 90, 45, 76, 112)
+
+console.log('max using Math.max', max);
