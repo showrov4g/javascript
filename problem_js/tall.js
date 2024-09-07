@@ -2,7 +2,9 @@ const height = [45, 65, 76, 44, 67, 87, 34];
 
 
 function getMax(numbers){
-    console.log(numbers)
+    for (let num of numbers){
+        console.log(num);
+    }
 }
 
 
