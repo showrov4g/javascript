@@ -8,16 +8,30 @@ const phones = [
 
 ];
 
-function getChepestPhone(phones){
-    let min = phones[0];
+// get height value of mobile
+
+function getHeightPhone(phones){
+    let heigh = phones [0];
     for (const phone of phones){
-        if (phone.price < min.price) {
-            min = phone;
+        if(phone.price > heigh.price){
+            heigh = phone;
         }
     }
-    return min;
+    return heigh;
 }
+const highPhone = getHeightPhone(phones);
+console.log(highPhone);
 
-const cheap = getChepestPhone(phones);
+// function getChepestPhone(phones){
+//     let min = phones[0];
+//     for (const phone of phones){
+//         if (phone.price < min.price) {
+//             min = phone;
+//         }
+//     }
+//     return min;
+// }
 
-console.log('Cheapest phone is: ', cheap);
+// const cheap = getChepestPhone(phones);
+
+// console.log('Cheapest phone is: ', cheap);
