@@ -4,4 +4,14 @@ function myFunction(){
     
 };
 
-myFunction();
+// geting message throw function 
+
+function message(msg){
+    return msg;
+    
+}
+
+
+let finalMessage = message("this is ghosh. A expert javaScript developer");
+
+console.log(finalMessage);
