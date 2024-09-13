@@ -1,3 +1,10 @@
 body{
     background:rgb(219, 219, 111);
 }
+#box{
+    height: 100px;
+    width: 100px;
+    background: aquamarine;
+    color: white;
+    border: 1px solid black;
+}
