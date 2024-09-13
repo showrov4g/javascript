@@ -1,5 +1,16 @@
-#heading{
-    color: rad;
-    background: yellow;
-    font-size: 3rem;
+body{
+    background:rgb(219, 219, 111);
+}
+.text{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 3px;
+    text-align: center;
+    background: aquamarine;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
