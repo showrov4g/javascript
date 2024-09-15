@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    color: lightcoral;
+}
+li{
+    color: tomato;
+}
+
+#fruits-title{
+    color: black;
+}
+.important-paces{
+    color: olive;
+}
