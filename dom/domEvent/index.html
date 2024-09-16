@@ -7,11 +7,17 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
-    <h1 onclick="console.log('this is html heading')">javaScript Dom Event learning</h1>
-     <button id="blue" onclick="red()">Click here</button>
-     <br>
-     <button id="click" onclick="makeYellow()">Make it yellow</button>
+
+    <h1>Dom event handler</h1>
+    <h3 id="handler-status">default text</h3>
+    <button onclick="handelOnClick()">event handle with onclick function</button>
+    <button id="event-listner">this is event listener button</button>
+
+    <div class="input_field">
+        <p id="input-text">default input text</p>
+        <input id="input-field" type="text">
+        <button id="btn">update</button>
+    </div>
 
     <script src="./index.js"></script>
 </body>
