@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <h1>learning delegate</h1>
 
     <section>
@@ -18,16 +20,32 @@
             <li class="item">Doloribus, expedita.</li>
             <li class="item">In, voluptatem.</li>
         </ul>
+        <button id="btn-add-item">add item</button>
     </section>
 
     <script>
         const items = document.getElementsByClassName('item');
-        for(let item of items){
-            item.addEventListener('click', function(){
+        for (let item of items) {
+            item.addEventListener('click', function () {
                 event.target.parentNode.removeChild(event.target);
             })
         }
+
+
+        document.getElementById('list-container').addEventListener('click', function(){
+            event.target.parentNode.removeChild(event.target)
+        })
+
+        document.getElementById('btn-add-item').addEventListener('click', function () {
+            let listContainer = document.getElementById('list-container');
+            const li = document.createElement('li');
+            li.innerText = "this is new text";
+            li.classList.add('item');
+            listContainer.appendChild(li);
+        })
     </script>
-    
+
+
 </body>
+
 </html>
