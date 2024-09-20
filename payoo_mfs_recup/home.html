@@ -21,16 +21,41 @@
                     <!-- account balance  -->
                     <div class="stats shadow">
                         <div class="stat">
-                          <div class="stat-title">Total Page Views</div>
-                          <div class="stat-value">89,400</div>
-                          <div class="stat-desc">21% more than last month</div>
+                            <div class="stat-title">Total Balance</div>
+                            <div id="amount-number" class="stat-value">89,400</div>
                         </div>
-                      </div>
+                    </div>
+                    <!-- account balance close  -->
+                    <div class="divider"></div>
+
+                    <!-- add money start -->
+                    <div class="card bg-base-100 w-11/12 max-w-sm shrink-0 shadow-2xl">
+                        <form class="card-body">
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Amount</span>
+                                </label>
+                                <input id="add-amount" type="text" placeholder="Enter your amount" class="input input-bordered" required />
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Password</span>
+                                </label>
+                                <input id="pin-number" type="password" autocomplete="off" placeholder="Enter your Password" class="input input-bordered" required />
+                            </div>
+                            <div class="form-control mt-6">
+                                <button id="add-money-button" class="btn btn-primary">Add Cash</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- add money end -->
+
                 </div>
             </div>
         </div>
     </main>
-
+<script src="./addMoney.js"></script>
 </body>
 
 </html>
