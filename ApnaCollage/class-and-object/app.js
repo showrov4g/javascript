@@ -1,6 +1,7 @@
 class person {
-  constructor() {
+  constructor(name) {
     this.species = "homo sapiens";
+    this.name = name;
   }
   eat() {
     console.log("he is eating Apple");
@@ -8,11 +9,11 @@ class person {
 }
 
 class engineer extends person {
-  constructor(branch) {
-    super();
-    this.branch = branch;
+  constructor(name) {
+    super(name);
   }
   work() {
+    super.eat();
     console.log("solve problem, build something");
   }
 }
