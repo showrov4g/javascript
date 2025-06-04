@@ -15,10 +15,18 @@
 // }
 
 
-let invite = false;
+let invite = true;
+let money = 500;
 
 if(invite == true){
-    console.log("I will go")
+    console.log("I will go");
+
+    if (money > 1000){
+        console.log("i Will by a gift for my friend")
+    }else{
+        console.log("i will go without gift")
+    }
+
 }else{
     console.log("I will unfriend my friend")
 }
